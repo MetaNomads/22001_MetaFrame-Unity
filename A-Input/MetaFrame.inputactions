@@ -1,0 +1,1078 @@
+{
+    "name": "MetaFrame",
+    "maps": [
+        {
+            "name": "MetaFrame_Input",
+            "id": "b6e35d60-8759-4947-8946-5a97368e45d2",
+            "actions": [
+                {
+                    "name": "R_Grip_Pressed",
+                    "type": "Button",
+                    "id": "1d49c14b-53c9-4b24-9f7e-01b847117447",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.85)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Grip_Released",
+                    "type": "Button",
+                    "id": "2bcdcfe6-d375-47cf-8611-8a091d0e1373",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.8,behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Trigger_Touched",
+                    "type": "Button",
+                    "id": "73b38288-9df4-43b5-8bd4-afac86138623",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Trigger_UnTouched",
+                    "type": "Button",
+                    "id": "f6d9f67b-6739-4281-8dfd-5ab3b8993e49",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Trigger_Pressed",
+                    "type": "Button",
+                    "id": "566d1445-1bae-41c2-8faa-0fb585d6fcf2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.85)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Trigger_Released",
+                    "type": "Button",
+                    "id": "84a2eb22-abbe-42a0-bfd4-c7b23e87413e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.8,behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Thumbstick_Touched",
+                    "type": "Button",
+                    "id": "b6febf2e-7ffe-420e-9949-536110985292",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Thumbstick_UnTouched",
+                    "type": "Button",
+                    "id": "7acf4cfe-eeeb-4682-a880-96ff7a09ed7c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Thumbstick_Pressed",
+                    "type": "Button",
+                    "id": "e97f8ea4-0d84-4ffd-9093-ffb7e39f7919",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Thumbstick_Released",
+                    "type": "Button",
+                    "id": "bf0e5883-079e-4783-94a5-738fcde1baa1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Primary_Touched",
+                    "type": "Button",
+                    "id": "4aa45e9c-0c82-4db6-a963-c5d33fb7a650",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Primary_UnTouched",
+                    "type": "Button",
+                    "id": "cfb05388-d5d2-4913-9a4c-b4e29a57360e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Primary_Pressed",
+                    "type": "Button",
+                    "id": "22b8d162-dd2e-4b8e-8a87-601b84643f15",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Primary_Released",
+                    "type": "Button",
+                    "id": "9af1f2ca-5121-413f-8dd5-bffcbad8aa46",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Secondary_Touched",
+                    "type": "Button",
+                    "id": "e677bfaf-7d43-4704-9880-274d53df85ce",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Secondary_UnTouched",
+                    "type": "Button",
+                    "id": "61c07663-c4da-4e68-b80a-e7e4e2522076",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Secondary_Pressed",
+                    "type": "Button",
+                    "id": "82abf540-457e-4813-b45f-e3f274c1e2ae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Secondary_Released",
+                    "type": "Button",
+                    "id": "c70bb3a3-4aaa-471a-a8a9-2df05164edb0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Grip_Pressed",
+                    "type": "Button",
+                    "id": "61fbe058-5cbf-404d-843a-0ec8ef9860d0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.85)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Grip_Released",
+                    "type": "Button",
+                    "id": "cf582500-8c04-40d2-9d63-27232968428e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.8,behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Trigger_Touched",
+                    "type": "Button",
+                    "id": "56c368bf-7fe4-4d1e-8b2c-921effeadc56",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Trigger_UnTouched",
+                    "type": "Button",
+                    "id": "ae892744-173e-4188-acd6-106899b43e73",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Trigger_Pressed",
+                    "type": "Button",
+                    "id": "b755511b-f257-4aaf-b514-2fa5b634537f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.85)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Trigger_Released",
+                    "type": "Button",
+                    "id": "a30b77df-a668-4c45-afc2-b26943033292",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(pressPoint=0.8,behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Thumbstick_Touched",
+                    "type": "Button",
+                    "id": "d90cb7dd-78ed-47a6-8d67-2ba759961bfd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Thumbstick_UnTouched",
+                    "type": "Button",
+                    "id": "270f7968-f01a-4356-8cdb-12cf963b7712",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Thumbstick_Pressed",
+                    "type": "Button",
+                    "id": "3d5fe400-7fe1-4f8c-b323-90b979efdb85",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Thumbstick_Released",
+                    "type": "Button",
+                    "id": "b3dc2e18-4ae2-4d45-bf14-c40e7574e5d6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Primary_Touched",
+                    "type": "Button",
+                    "id": "ebb5bb9e-c679-4d65-a6e0-7fde59e74489",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Primary_UnTouched",
+                    "type": "Button",
+                    "id": "6060f648-fda6-4a77-8b8c-733b8d497be9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Primary_Pressed",
+                    "type": "Button",
+                    "id": "5b4863cc-89dc-4525-be7d-a1a6977afcfd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Primary_Released",
+                    "type": "Button",
+                    "id": "f751b8c0-0731-4e3e-bfae-85bc6c54cc8b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Secondary_Touched",
+                    "type": "Button",
+                    "id": "9b0883d1-888b-49ab-ae8a-8bc756593c09",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Secondary_UnTouched",
+                    "type": "Button",
+                    "id": "ca19e1c0-82db-4b5d-849b-6e16560fccdf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Secondary_Pressed",
+                    "type": "Button",
+                    "id": "30a679ee-b2fe-411b-a2d4-7c2bb793f603",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Secondary_Released",
+                    "type": "Button",
+                    "id": "1f236285-5d46-4421-a4a9-1d84b6d2d186",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "01e984db-5c6e-4ba1-bf63-64226108c62c",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Grip_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d58f0f49-26f0-4d2b-ac5c-2a7b7964b672",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Grip_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac5ba9c5-180f-4918-ab13-c2723ef1f96a",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Trigger_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25983519-9ec1-42bb-a975-f42e07dc1cf4",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Trigger_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05c5966b-8ea4-4240-bf7e-471a735f71f5",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Primary_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "97ffc31f-a2f5-4804-abda-1b4544e693c7",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Primary_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2c0621b9-0175-46e9-bb59-adf4b766d157",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Grip_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "18c66ae0-ddb7-474b-b2c0-9857762193d8",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Trigger_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6662fea-66ad-443c-9170-be2698c3b9e7",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Trigger_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6a855284-0fc8-405a-985f-f12f0041792b",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Grip_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0d66bd9c-af68-4a80-ad54-42ecdcfb9687",
+                    "path": "<XRController>{LeftHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumbstick_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ac2da60b-8371-4ce6-a52a-569965ab69eb",
+                    "path": "<XRController>{LeftHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumbstick_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fff68ba4-87bc-48f8-b77f-6006b10b115d",
+                    "path": "<XRController>{LeftHand}/triggerTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Trigger_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e822ed77-9b3a-413e-8059-fcaa43a41324",
+                    "path": "<XRController>{LeftHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumbstick_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e8d86375-ed06-46be-aa33-66472659aff0",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Primary_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9535edc1-b2ca-47bc-8769-29167bcf33c4",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Secondary_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e731f13f-3905-470b-a589-3d42b23436c1",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Secondary_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "161ecce3-253a-46aa-8b72-6d957540caa2",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Secondary_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aa79eef5-fd58-4b2b-ac4a-502ffef9c91c",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Secondary_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "367b556c-2ffd-47d4-af0a-49a823528432",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumbstick_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c75dcb63-9eab-4e93-aa4f-f0dc433519ed",
+                    "path": "<XRController>{RightHand}/triggerTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Trigger_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f28a913-37da-456a-99d8-9b7dad81fd13",
+                    "path": "<XRController>{RightHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumbstick_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b1d5195-b94e-4757-b43d-9fde336ed837",
+                    "path": "<XRController>{RightHand}/triggerTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Trigger_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3113c1f8-7dc8-477f-8cf7-bf40ddee290a",
+                    "path": "<XRController>{LeftHand}/triggerTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Trigger_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f2d8ea50-4835-4635-90fb-0f7c97375de6",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumbstick_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f5f3a8e-3029-472b-b736-c0cd5bc869f5",
+                    "path": "<XRController>{RightHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumbstick_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "855bdfeb-86e7-4ed6-894f-53b39d5f926a",
+                    "path": "<XRController>{RightHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Primary_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "49ce03f6-2fc4-4b7a-b936-8a41910cf2a2",
+                    "path": "<XRController>{RightHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Primary_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5cd56c2b-30ac-4fdd-8ae7-d94cac7ca1b0",
+                    "path": "<XRController>{RightHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Secondary_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2610c9ca-c6dc-45f9-9f26-87db40816e38",
+                    "path": "<XRController>{RightHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Secondary_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "49aef2aa-76b8-4898-9248-2cd888bf6b38",
+                    "path": "<XRController>{LeftHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumbstick_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c2a7f7a-d49d-47c8-a9b0-9ce23959fe05",
+                    "path": "<XRController>{LeftHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Primary_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7e813f2-979f-4275-93ee-516d2e7048b7",
+                    "path": "<XRController>{LeftHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Primary_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ea6f438c-f8ea-4d61-bc5e-9f68e06910c1",
+                    "path": "<XRController>{LeftHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Secondary_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "715d92e6-dc3d-41a5-b2a0-50e8cdee15ae",
+                    "path": "<XRController>{LeftHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Secondary_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1aa0d3d-c95b-4e54-8b35-a8b94b8d9c7b",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Primary_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "MetaFrame_HandGesture",
+            "id": "13a266db-c956-41d5-bb9c-823c9c6dac20",
+            "actions": [
+                {
+                    "name": "L_Thumb_Touched",
+                    "type": "Button",
+                    "id": "3a538f32-fc5b-4c2d-8a66-fce679cfa93f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Thumb_UnTouched",
+                    "type": "Button",
+                    "id": "b4f24ab4-403b-4924-b147-22279a7fee54",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Thumb_Pressed",
+                    "type": "Button",
+                    "id": "8469c836-c0ee-4313-ad17-fea6e0c87bfc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "L_Thumb_Released",
+                    "type": "Button",
+                    "id": "d550f14b-2ad9-4790-8af5-ccb7b9b7c7e3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Thumb_Touched",
+                    "type": "Button",
+                    "id": "67643119-db9e-47c1-a848-b00d47160018",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Thumb_UnTouched",
+                    "type": "Button",
+                    "id": "51aab8fe-9ed0-4f5a-b87c-30e9dc3a9ffe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Thumb_Pressed",
+                    "type": "Button",
+                    "id": "7878e26b-b4bb-4ccd-8800-e20d69bd6e58",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "R_Thumb_Released",
+                    "type": "Button",
+                    "id": "d1c27999-14f9-4526-9a6d-83bc3913b0ef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d1cdfb68-26f5-4097-98d8-16752b1fd230",
+                    "path": "<XRController>{LeftHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "242e6299-ff78-4920-a4d5-714befaac0a5",
+                    "path": "<XRController>{LeftHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6ee43433-e1cc-42e3-9773-ff6cfcff6c4b",
+                    "path": "<XRController>{LeftHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2d12cbeb-084e-4464-82e8-800e555cffc0",
+                    "path": "<XRController>{LeftHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25df6252-99e3-4fc2-801e-08e1d3daf934",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d804ac5e-3140-48b8-855b-8872d7b7c289",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "943f4476-7d7e-4ab3-9ff0-04e2500ad317",
+                    "path": "<XRController>{LeftHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1321fc15-49d9-4ad4-8d1a-7f443bf37a41",
+                    "path": "<XRController>{LeftHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "de35b907-6081-40bf-a058-f47722e4b317",
+                    "path": "<XRController>{LeftHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b70ee060-4eca-4478-a232-fed757a4bbdf",
+                    "path": "<XRController>{LeftHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f44e607d-4777-4c93-8801-758cff0a3ba7",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a11bb95b-c00b-4362-8658-482d0a2fd8b5",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "L_Thumb_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8f2027fe-85d1-45de-8a79-e3a839766652",
+                    "path": "<XRController>{RightHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68117cbd-51f0-4e24-98a7-dd2e92e27ba8",
+                    "path": "<XRController>{RightHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d52ccdd-f383-4c49-ab78-e55876768049",
+                    "path": "<XRController>{RightHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_Touched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d95b716d-f131-44cf-ada8-79d8b00c3c03",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7a8e8551-1541-4c9d-a085-2eba85982f7f",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "33ab7d28-0c43-4094-9d27-3f45ef51e75f",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1d77d20a-33e4-4496-a627-d9604e3bfadd",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "63c0dfe4-a1db-4a3e-ac3b-2210bc9c5366",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d5ba0683-3022-4afa-89e5-f6533a08722c",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_Released",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c570a84d-08b8-4fd3-b0c5-6913002a1092",
+                    "path": "<XRController>{RightHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cc035c78-4837-47b7-8d30-c29f709b5433",
+                    "path": "<XRController>{RightHand}/primaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c8eed0b0-9783-4a73-be0c-74015e26f74e",
+                    "path": "<XRController>{RightHand}/secondaryTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "R_Thumb_UnTouched",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
