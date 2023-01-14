@@ -363,6 +363,11 @@ PrefabInstance:
       propertyPath: primaryHand
       value: 
       objectReference: {fileID: 1162672153405739196}
+    - target: {fileID: 7901250642711206386, guid: b2dddb6320d4ecc45b68a71232f244b8,
+        type: 3}
+      propertyPath: secondaryHand
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8070190212694774067, guid: b2dddb6320d4ecc45b68a71232f244b8,
         type: 3}
       propertyPath: bendAction.m_Reference
