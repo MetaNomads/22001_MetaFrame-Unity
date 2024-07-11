@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4322961761100800552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5613541114612866630}
+  - component: {fileID: 7434439062555814770}
+  m_Layer: 0
+  m_Name: DataSourceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5613541114612866630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322961761100800552}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7434439062555814770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4322961761100800552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fb940c2436c5b47a488343388d4e4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _config:
+    PositionOffset: {x: 0, y: 0, z: 0}
+    RotationOffset: {x: 0, y: 0, z: 0}
+    UpVectorType: 2
+    FeatureThresholds: {fileID: 0}
+  _trackingToWorldTransformer: {fileID: 0}
+  _OVRHmd: {fileID: 0}
+  _headPosition: 1
+  _headForward: 0
+  _headChestRotation: 1
+  _headWorldRotation: 1
+  _fullBodySkeleton: {fileID: 0}
+  _chestForward: 0
+  _chestWorldRotation: 1
+  _leftTransformFeatureStateProvider: {fileID: 0}
+  _leftFingerFeatureStateProvider: {fileID: 0}
+  _leftPalmPosition: 1
+  _leftPalmRotation: 1
+  _leftThumb: 1
+  _leftIndex: 1
+  _leftMiddle: 1
+  _leftRing: 1
+  _leftPinky: 1
+  _rightTransformFeatureStateProvider: {fileID: 0}
+  _rightFingerFeatureStateProvider: {fileID: 0}
+  _rightPalmPosition: 1
+  _rightPalmRotation: 1
+  _rightThumb: 1
+  _rightIndex: 1
+  _rightMiddle: 1
+  _rightRing: 1
+  _rightPinky: 1

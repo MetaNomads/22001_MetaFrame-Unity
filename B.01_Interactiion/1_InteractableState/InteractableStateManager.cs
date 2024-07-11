@@ -40,16 +40,6 @@ namespace MetaFrame.Interaction
         [BoxGroup("First Trigger")][SerializeField] private GameObject[] firstTriggerConfirmer = null;
         [BoxGroup("First Trigger")][SerializeField] private UnityEvent _firstTrigger;
         [BoxGroup("First Trigger")][SerializeField] private UnityEvent _firstUntrigger;
-
-        [BoxGroup("Second Trigger")][SerializeField] private GameObject[] secondTriggerConfirmer = null;
-        [BoxGroup("Second Trigger")][SerializeField] private UnityEvent _secondTrigger;
-        [BoxGroup("Second Trigger")][SerializeField] private UnityEvent _secondUntrigger;
-
-        [BoxGroup("Third Trigger")][SerializeField] private GameObject[] thirdTriggerConfirmer = null;
-        [BoxGroup("Third Trigger")][SerializeField] private UnityEvent _thirdTrigger;
-        [BoxGroup("Third Trigger")][SerializeField] private UnityEvent _thirdUntrigger;
-
-
         /*-------------------------------------------------------------------------------------------------------------------------*/
         /// <summary>
         /// multiple interactors

@@ -22,45 +22,45 @@ namespace MetaFrame.Interaction
         public Interactor HandGrabUse_Left;
         public Interactor DistanceHandGrab_Left;
 
-        private void initiateLeft()
+        private void InitiateLeft()
         {
             // hand poke
-            if (HandPoke_L_toggle != null && HandPoke_L != null) {HandPoke_Left = new Interactor(HandPoke_L_toggle, HandPoke_L); HandPoke_Left.set();}
+            if (HandPoke_L_toggle && HandPoke_L != null) {HandPoke_Left = new Interactor(HandPoke_L_toggle, HandPoke_L); HandPoke_Left.Set();}
             // touch grab
-            if (TouchGrab_L_toggle != null && TouchGrab_L != null) {TouchGrab_Left = new Interactor(TouchGrab_L_toggle, TouchGrab_L); TouchGrab_Left.set();}
+            if (TouchGrab_L_toggle && TouchGrab_L != null) {TouchGrab_Left = new Interactor(TouchGrab_L_toggle, TouchGrab_L); TouchGrab_Left.Set();}
             // hand ray
-            if (HandRay_L_toggle != null && HandRay_L != null) {HandRay_Left = new Interactor(HandRay_L_toggle, HandRay_L); HandRay_Left.set();}
+            if (HandRay_L_toggle && HandRay_L != null) {HandRay_Left = new Interactor(HandRay_L_toggle, HandRay_L); HandRay_Left.Set();}
             // hand grab
-            if (HandGrab_L_toggle != null && HandGrab_L != null) {HandGrab_Left = new Interactor(HandGrab_L_toggle, HandGrab_L); HandGrab_Left.set();}
+            if (HandGrab_L_toggle && HandGrab_L != null) {HandGrab_Left = new Interactor(HandGrab_L_toggle, HandGrab_L); HandGrab_Left.Set();}
             // hand grab use
-            if (HandGrabUse_L_toggle != null && HandGrabUse_L != null) {HandGrabUse_Left = new Interactor(HandGrabUse_L_toggle, HandGrabUse_L); HandGrabUse_Left.set();}
+            if (HandGrabUse_L_toggle !&& HandGrabUse_L != null) {HandGrabUse_Left = new Interactor(HandGrabUse_L_toggle, HandGrabUse_L); HandGrabUse_Left.Set();}
             // hand ray
-            if (DistanceHandGrab_L_toggle != null && DistanceHandGrab_L != null) {DistanceHandGrab_Left = new Interactor(DistanceHandGrab_L_toggle, DistanceHandGrab_L); DistanceHandGrab_Left.set();}
+            if (DistanceHandGrab_L_toggle && DistanceHandGrab_L != null) {DistanceHandGrab_Left = new Interactor(DistanceHandGrab_L_toggle, DistanceHandGrab_L); DistanceHandGrab_Left.Set();}
             // hand ray
-            if (HandRay_L_toggle != null && HandRay_L != null) {HandRay_Left = new Interactor(HandRay_L_toggle, HandRay_L); HandRay_Left.set();}
+            if (HandRay_L_toggle && HandRay_L != null) {HandRay_Left = new Interactor(HandRay_L_toggle, HandRay_L); HandRay_Left.Set();}
         }
         /*-------------------------------------------------------------------------------------------------------------------------*/        
         /// <summary>
         /// editor inspector setup
         /// </summary>
         // hand poke
-        [BoxGroup("Left Hand Interactor")][ToggleLeft] [SerializeField] protected bool HandPoke_L_toggle;
-        [BoxGroup("Left Hand Interactor")][EnableIf("HandPoke_L_toggle")] [SerializeField] protected GameObject HandPoke_L;
+        [FoldoutGroup("Left Hand Interactor")][ToggleLeft] [SerializeField] protected bool HandPoke_L_toggle;
+        [FoldoutGroup("Left Hand Interactor")][EnableIf("HandPoke_L_toggle")] [SerializeField] protected GameObject HandPoke_L;
             // touch grab
-            [BoxGroup("Left Hand Interactor")][EnableIf("HandPoke_L_toggle")][Indent(2)][ToggleLeft] [SerializeField] protected bool TouchGrab_L_toggle;
-            [BoxGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle")][Indent(2)] [SerializeField] protected GameObject TouchGrab_L;
+            [FoldoutGroup("Left Hand Interactor")][EnableIf("HandPoke_L_toggle")][Indent(2)][ToggleLeft] [SerializeField] protected bool TouchGrab_L_toggle;
+            [FoldoutGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle")][Indent(2)] [SerializeField] protected GameObject TouchGrab_L;
                 //hand ray
-                [BoxGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle")][Indent(4)][ToggleLeft] [SerializeField] protected bool HandRay_L_toggle;
-                [BoxGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandRay_L_toggle")][Indent(4)] [SerializeField] protected GameObject HandRay_L;
+                [FoldoutGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle")][Indent(4)][ToggleLeft] [SerializeField] protected bool HandRay_L_toggle;
+                [FoldoutGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandRay_L_toggle")][Indent(4)] [SerializeField] protected GameObject HandRay_L;
                 //hand grab
-                [BoxGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle")][Indent(4)][ToggleLeft] [SerializeField] protected bool HandGrab_L_toggle;
-                [BoxGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandGrab_L_toggle")][Indent(4)] [SerializeField] protected GameObject HandGrab_L;
+                [FoldoutGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle")][Indent(4)][ToggleLeft] [SerializeField] protected bool HandGrab_L_toggle;
+                [FoldoutGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandGrab_L_toggle")][Indent(4)] [SerializeField] protected GameObject HandGrab_L;
                     //hand grab use
-                    [BoxGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandGrab_L_toggle")][Indent(6)][ToggleLeft] [SerializeField] protected bool HandGrabUse_L_toggle;
-                    [BoxGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandGrab_L_toggle && HandGrabUse_L_toggle")][Indent(6)] [SerializeField] protected GameObject HandGrabUse_L;
+                    [FoldoutGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandGrab_L_toggle")][Indent(6)][ToggleLeft] [SerializeField] protected bool HandGrabUse_L_toggle;
+                    [FoldoutGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandGrab_L_toggle && HandGrabUse_L_toggle")][Indent(6)] [SerializeField] protected GameObject HandGrabUse_L;
                     //distance grab use
-                    [BoxGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandGrab_L_toggle")][Indent(6)][ToggleLeft] [SerializeField] protected bool DistanceHandGrab_L_toggle;
-                    [BoxGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandGrab_L_toggle && DistanceHandGrab_L_toggle")][Indent(6)] [SerializeField] protected GameObject DistanceHandGrab_L;
+                    [FoldoutGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandGrab_L_toggle")][Indent(6)][ToggleLeft] [SerializeField] protected bool DistanceHandGrab_L_toggle;
+                    [FoldoutGroup("Left Hand Interactor")][EnableIf("@HandPoke_L_toggle && TouchGrab_L_toggle && HandGrab_L_toggle && DistanceHandGrab_L_toggle")][Indent(6)] [SerializeField] protected GameObject DistanceHandGrab_L;
         /*=========================================================================================================================*/
         
 
@@ -75,45 +75,45 @@ namespace MetaFrame.Interaction
         public Interactor HandGrabUse_Right;
         public Interactor DistanceHandGrab_Right;
 
-        private void initiateRight()
+        private void InitiateRight()
         {
             // hand poke
-            if (HandPoke_R_toggle != null && HandPoke_R != null) {HandPoke_Right = new Interactor(HandPoke_R_toggle, HandPoke_R);}
+            if (HandPoke_R_toggle && HandPoke_R != null) {HandPoke_Right = new Interactor(HandPoke_R_toggle, HandPoke_R);}
             // touch grab
-            if (TouchGrab_R_toggle != null && TouchGrab_R != null) {TouchGrab_Right = new Interactor(TouchGrab_R_toggle, TouchGrab_R);}
+            if (TouchGrab_R_toggle && TouchGrab_R != null) {TouchGrab_Right = new Interactor(TouchGrab_R_toggle, TouchGrab_R);}
             // hand ray
-            if (HandRay_R_toggle != null && HandRay_R != null) {HandRay_Right = new Interactor(HandRay_R_toggle, HandRay_R);}
+            if (HandRay_R_toggle && HandRay_R != null) {HandRay_Right = new Interactor(HandRay_R_toggle, HandRay_R);}
             // hand grab
-            if (HandGrab_R_toggle != null && HandGrab_R != null) {HandGrab_Right = new Interactor(HandGrab_R_toggle, HandGrab_R);}
+            if (HandGrab_R_toggle && HandGrab_R != null) {HandGrab_Right = new Interactor(HandGrab_R_toggle, HandGrab_R);}
             // hand grab use
-            if (HandGrabUse_R_toggle != null && HandGrabUse_R != null) {HandGrabUse_Right = new Interactor(HandGrabUse_R_toggle, HandGrabUse_R);}
+            if (HandGrabUse_R_toggle && HandGrabUse_R != null) {HandGrabUse_Right = new Interactor(HandGrabUse_R_toggle, HandGrabUse_R);}
             // hand ray
-            if (DistanceHandGrab_R_toggle != null && DistanceHandGrab_R != null) {DistanceHandGrab_Right = new Interactor(DistanceHandGrab_R_toggle, DistanceHandGrab_R);}
+            if (DistanceHandGrab_R_toggle && DistanceHandGrab_R != null) {DistanceHandGrab_Right = new Interactor(DistanceHandGrab_R_toggle, DistanceHandGrab_R);}
             // hand ray
-            if (HandRay_R_toggle != null && HandRay_R != null) {HandRay_Right = new Interactor(HandRay_R_toggle, HandRay_R);}
+            if (HandRay_R_toggle && HandRay_R != null) {HandRay_Right = new Interactor(HandRay_R_toggle, HandRay_R);}
         }
         /*-------------------------------------------------------------------------------------------------------------------------*/
         /// <summary>
         /// editor inspector setup
         /// </summary>
         // hand poke
-        [BoxGroup("Right Hand Interactor")][ToggleLeft] [SerializeField] protected bool HandPoke_R_toggle;
-        [BoxGroup("Right Hand Interactor")][EnableIf("HandPoke_R_toggle")] [SerializeField] protected GameObject HandPoke_R;
+        [FoldoutGroup("Right Hand Interactor")][ToggleLeft] [SerializeField] protected bool HandPoke_R_toggle;
+        [FoldoutGroup("Right Hand Interactor")][EnableIf("HandPoke_R_toggle")] [SerializeField] protected GameObject HandPoke_R;
             // touch grab
-            [BoxGroup("Right Hand Interactor")][EnableIf("HandPoke_R_toggle")][Indent(2)][ToggleLeft] [SerializeField] protected bool TouchGrab_R_toggle;
-            [BoxGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle")][Indent(2)] [SerializeField] protected GameObject TouchGrab_R;
+            [FoldoutGroup("Right Hand Interactor")][EnableIf("HandPoke_R_toggle")][Indent(2)][ToggleLeft] [SerializeField] protected bool TouchGrab_R_toggle;
+            [FoldoutGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle")][Indent(2)] [SerializeField] protected GameObject TouchGrab_R;
                 //hand ray
-                [BoxGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle")][Indent(4)][ToggleLeft] [SerializeField] protected bool HandRay_R_toggle;
-                [BoxGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandRay_R_toggle")][Indent(4)] [SerializeField] protected GameObject HandRay_R;
+                [FoldoutGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle")][Indent(4)][ToggleLeft] [SerializeField] protected bool HandRay_R_toggle;
+                [FoldoutGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandRay_R_toggle")][Indent(4)] [SerializeField] protected GameObject HandRay_R;
                 //hand grab
-                [BoxGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle")][Indent(4)][ToggleLeft] [SerializeField] protected bool HandGrab_R_toggle;
-                [BoxGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandGrab_R_toggle")][Indent(4)] [SerializeField] protected GameObject HandGrab_R;
+                [FoldoutGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle")][Indent(4)][ToggleLeft] [SerializeField] protected bool HandGrab_R_toggle;
+                [FoldoutGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandGrab_R_toggle")][Indent(4)] [SerializeField] protected GameObject HandGrab_R;
                     //hand grab use
-                    [BoxGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandGrab_R_toggle")][Indent(6)][ToggleLeft] [SerializeField] protected bool HandGrabUse_R_toggle;
-                    [BoxGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandGrab_R_toggle && HandGrabUse_R_toggle")][Indent(6)] [SerializeField] protected GameObject HandGrabUse_R;
+                    [FoldoutGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandGrab_R_toggle")][Indent(6)][ToggleLeft] [SerializeField] protected bool HandGrabUse_R_toggle;
+                    [FoldoutGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandGrab_R_toggle && HandGrabUse_R_toggle")][Indent(6)] [SerializeField] protected GameObject HandGrabUse_R;
                     //distance grab use
-                    [BoxGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandGrab_R_toggle")][Indent(6)][ToggleLeft] [SerializeField] protected bool DistanceHandGrab_R_toggle;
-                    [BoxGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandGrab_R_toggle && DistanceHandGrab_R_toggle")][Indent(6)] [SerializeField] protected GameObject DistanceHandGrab_R;
+                    [FoldoutGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandGrab_R_toggle")][Indent(6)][ToggleLeft] [SerializeField] protected bool DistanceHandGrab_R_toggle;
+                    [FoldoutGroup("Right Hand Interactor")][EnableIf("@HandPoke_R_toggle && TouchGrab_R_toggle && HandGrab_R_toggle && DistanceHandGrab_R_toggle")][Indent(6)] [SerializeField] protected GameObject DistanceHandGrab_R;
         /*=========================================================================================================================*/
 
         /*=========================================================================================================================*/
@@ -123,7 +123,7 @@ namespace MetaFrame.Interaction
         public Interactor Locomotion_Left;
         public Interactor Locomotion_Right;
 
-        private void initiateLocomotion()
+        private void InitiateLocomotion()
         {
             // Locomotion Left
             if (Locomotion_L_toggle && Locomotion_L != null) {Locomotion_Left = new Interactor(Locomotion_L_toggle, Locomotion_L);}
@@ -134,10 +134,10 @@ namespace MetaFrame.Interaction
         /// <summary>
         /// editor inspector setup
         /// </summary>
-        [BoxGroup("Locomotion")][ToggleLeft] [SerializeField] protected bool Locomotion_L_toggle;
-        [BoxGroup("Locomotion")][EnableIf("Locomotion_L_toggle")] [SerializeField] protected GameObject Locomotion_L;
-        [BoxGroup("Locomotion")][ToggleLeft] [SerializeField] protected bool Locomotion_R_toggle;
-        [BoxGroup("Locomotion")][EnableIf("Locomotion_R_toggle")] [SerializeField] protected GameObject Locomotion_R;
+        [FoldoutGroup("Locomotion")][ToggleLeft] [SerializeField] protected bool Locomotion_L_toggle;
+        [FoldoutGroup("Locomotion")][EnableIf("Locomotion_L_toggle")] [SerializeField] protected GameObject Locomotion_L;
+        [FoldoutGroup("Locomotion")][ToggleLeft] [SerializeField] protected bool Locomotion_R_toggle;
+        [FoldoutGroup("Locomotion")][EnableIf("Locomotion_R_toggle")] [SerializeField] protected GameObject Locomotion_R;
         /*=========================================================================================================================*/
 
         /*=========================================================================================================================*/
@@ -162,7 +162,7 @@ namespace MetaFrame.Interaction
         // Start is called before the first frame update
         void Start()
         {
-            initiateInteractors();
+            InitiateInteractors();
 
         }
 
@@ -182,28 +182,28 @@ namespace MetaFrame.Interaction
                 activation = b;
                 interactor = i;
             }
-            public void set()
+            public void Set()
             {
-                if (activation){this.enable();}
-                else{this.disable();}
+                if (activation){this.Enable();}
+                else{this.Disable();}
             }
-            public void enable()
+            public void Enable()
             {
                 activation = true;
                 interactor.SetActive(true);
             }
-            public void disable()
+            public void Disable()
             {
                 activation = false;
                 interactor.SetActive(false);
             }
         }
 
-        private void initiateInteractors()
+        private void InitiateInteractors()
         {
-            initiateLeft();
-            initiateRight();
-            initiateLocomotion();
+            InitiateLeft();
+            InitiateRight();
+            InitiateLocomotion();
         }
        
 
