@@ -37,9 +37,9 @@ namespace MetaFrame.Interaction
         /// <summary>
         /// Trigger Confirm events
         /// </summary>
-        [BoxGroup("First Trigger")][SerializeField] private GameObject[] firstTriggerConfirmer = null;
-        [BoxGroup("First Trigger")][SerializeField] private UnityEvent _firstTrigger;
-        [BoxGroup("First Trigger")][SerializeField] private UnityEvent _firstUntrigger;
+        // [BoxGroup("First Trigger")][SerializeField] private GameObject[] firstTriggerConfirmer = null;
+        // [BoxGroup("First Trigger")][SerializeField] private UnityEvent _firstTrigger;
+        // [BoxGroup("First Trigger")][SerializeField] private UnityEvent _firstUntrigger;
         /*-------------------------------------------------------------------------------------------------------------------------*/
         /// <summary>
         /// multiple interactors
@@ -68,9 +68,9 @@ namespace MetaFrame.Interaction
         public UnityEvent WhenUnhover => _whenUnhover;
         public UnityEvent WhenSelect => _whenSelect;
         public UnityEvent WhenUnselect => _whenUnselect;
-        public UnityEvent firstTrigger => _firstTrigger;
-        public UnityEvent secondTrigger => _secondTrigger;
-        public UnityEvent thirdTrigger => _thirdTrigger;
+        // public UnityEvent firstTrigger => _firstTrigger;
+        // public UnityEvent secondTrigger => _secondTrigger;
+        // public UnityEvent thirdTrigger => _thirdTrigger;
         
         // public UnityEvent WhenInteractorViewAdded => _whenInteractorViewAdded;
         // public UnityEvent WhenInteractorViewRemoved => _whenInteractorViewRemoved;

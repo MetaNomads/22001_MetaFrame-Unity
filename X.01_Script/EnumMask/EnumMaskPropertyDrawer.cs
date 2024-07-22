@@ -14,13 +14,16 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
+
+#if UNITY_EDITOR
 using UnityEditor;
-
-using Sirenix.OdinInspector;
-using Sirenix.Utilities;
+#endif
 
 
+
+#if UNITY_EDITOR
 [CustomPropertyDrawer(typeof(EnumMaskAttribute))]
+
 public class EnumMaskPropertyDrawer : PropertyDrawer
 {
     Dictionary<string, bool> openFoldouts = new Dictionary<string, bool>();
@@ -516,3 +519,4 @@ public class EnumMaskPropertyDrawer : PropertyDrawer
         return parentProp;
     }
 }
+#endif

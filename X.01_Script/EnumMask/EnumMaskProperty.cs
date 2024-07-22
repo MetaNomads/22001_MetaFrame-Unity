@@ -1,10 +1,6 @@
 using System;
 using UnityEngine;
 
-
-using Sirenix.OdinInspector;
-using Sirenix.Utilities;
-
 [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
 public class EnumMaskAttribute : PropertyAttribute
 {
